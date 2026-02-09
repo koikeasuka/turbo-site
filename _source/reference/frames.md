@@ -32,6 +32,8 @@ Works like the basic frame, but the content is loaded from a remote `src` first.
 </turbo-frame>
 ```
 
+<iframe src="http://localhost:5000/examples/frame/eager_loadeds"></iframe>
+
 ## Lazy-loaded frame
 
 Like an eager-loaded frame, but the content is not loaded from `src` until the frame is visible.
