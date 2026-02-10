@@ -20,7 +20,7 @@ Confines all navigation within the frame by expecting any followed link or form 
 </turbo-frame>
 ```
 
-<iframe src="http://localhost:5000/examples/frame_basic/messages"></iframe>
+<iframe src="http://localhost:3000/examples/frame_basic/messages"></iframe>
 
 ## Eager-loaded frame
 
@@ -32,7 +32,7 @@ Works like the basic frame, but the content is loaded from a remote `src` first.
 </turbo-frame>
 ```
 
-<iframe src="http://localhost:5000/examples/frame/eager_loadeds"></iframe>
+<iframe src="http://localhost:3000/examples/frame/eager_loadeds"></iframe>
 
 ## Lazy-loaded frame
 
@@ -44,6 +44,8 @@ Like an eager-loaded frame, but the content is not loaded from `src` until the f
   loaded.
 </turbo-frame>
 ```
+
+<iframe src="http://localhost:3000/examples/frame/lazy_loadeds/messages"></iframe>
 
 ## Frame targeting the whole page by default
 
