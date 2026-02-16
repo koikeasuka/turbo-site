@@ -83,6 +83,8 @@ Like an eager-loaded frame, but the content is not loaded from `src` until the f
 </turbo-frame>
 ```
 
+<iframe src="http://localhost:3000/examples/frame/overwritten_navigations"></iframe>
+
 ## Frame that promotes navigations to Visits
 
 ```html
