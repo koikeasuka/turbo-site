@@ -19,6 +19,7 @@ Appends the content within the template tag to the container designated by the t
   </template>
 </turbo-stream>
 ```
+
 If the template's first element has an id that is already used by a direct child inside the container targeted by dom_id, it is replaced instead of appended.
 
 <iframe src="http://localhost:3000/examples/stream/append/messages"></iframe>
@@ -34,7 +35,10 @@ Prepends the content within the template tag to the container designated by the 
   </template>
 </turbo-stream>
 ```
+
 If the template's first element has an id that is already used by a direct child inside the container targeted by dom_id, it is replaced instead of prepended.
+
+<iframe src="http://localhost:3000/examples/stream/prepend/messages"></iframe>
 
 ### Replace
 
@@ -52,9 +56,7 @@ The `[method="morph"]` attribute can be added to the `turbo-stream` element to r
 
 ```html
 <turbo-stream action="replace" method="morph" target="dom_id">
-  <template>
-    Content to replace the element.
-  </template>
+  <template> Content to replace the element. </template>
 </turbo-stream>
 ```
 
@@ -74,9 +76,7 @@ The `[method="morph"]` attribute can be added to the `turbo-stream` element to m
 
 ```html
 <turbo-stream action="update" method="morph" target="dom_id">
-  <template>
-    Content to replace the element.
-  </template>
+  <template> Content to replace the element. </template>
 </turbo-stream>
 ```
 
@@ -85,8 +85,7 @@ The `[method="morph"]` attribute can be added to the `turbo-stream` element to m
 Removes the element designated by the target dom id.
 
 ```html
-<turbo-stream action="remove" target="dom_id">
-</turbo-stream>
+<turbo-stream action="remove" target="dom_id"> </turbo-stream>
 ```
 
 ### Before
@@ -131,8 +130,7 @@ morphing.
 To target multiple elements with a single action, use the `targets` attribute with a CSS query selector instead of the `target` attribute.
 
 ```html
-<turbo-stream action="remove" targets=".elementsWithClass">
-</turbo-stream>
+<turbo-stream action="remove" targets=".elementsWithClass"> </turbo-stream>
 
 <turbo-stream action="after" targets=".elementsWithClass">
   <template>
