@@ -96,6 +96,8 @@ Like an eager-loaded frame, but the content is not loaded from `src` until the f
 </turbo-frame>
 ```
 
+<iframe src="http://localhost:3000/examples/frame/promotes_navigations"></iframe>
+
 ## Frame that will get reloaded with morphing during page refreshes & when they are explicitly reloaded with .reload()
 
 ```html
