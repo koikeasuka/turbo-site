@@ -21,6 +21,8 @@ Appends the content within the template tag to the container designated by the t
 ```
 If the template's first element has an id that is already used by a direct child inside the container targeted by dom_id, it is replaced instead of appended.
 
+<iframe src="http://localhost:3000/examples/stream/append/messages"></iframe>
+
 ### Prepend
 
 Prepends the content within the template tag to the container designated by the target dom id.
