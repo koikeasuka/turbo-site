@@ -94,6 +94,8 @@ Removes the element designated by the target dom id.
 <turbo-stream action="remove" target="dom_id"> </turbo-stream>
 ```
 
+<iframe src="http://localhost:3000/examples/stream/remove/messages"></iframe>
+
 ### Before
 
 Inserts the content within the template tag before the element designated by the target dom id.
