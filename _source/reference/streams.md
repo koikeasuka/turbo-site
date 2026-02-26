@@ -52,6 +52,8 @@ Replaces the element designated by the target dom id.
 </turbo-stream>
 ```
 
+<iframe src="http://localhost:3000/examples/stream/replace/messages"></iframe>
+
 The `[method="morph"]` attribute can be added to the `turbo-stream` element to replace the element designated by the target dom id via morph.
 
 ```html
