@@ -62,6 +62,8 @@ The `[method="morph"]` attribute can be added to the `turbo-stream` element to r
 </turbo-stream>
 ```
 
+<iframe src="http://localhost:3000/examples/stream/replace_morph/messages/1/edit"></iframe>
+
 ### Update
 
 Updates the content within the template tag to the container designated by the target dom id.
@@ -73,6 +75,8 @@ Updates the content within the template tag to the container designated by the t
   </template>
 </turbo-stream>
 ```
+
+<iframe src="http://localhost:3000/examples/stream/update/messages"></iframe>
 
 The `[method="morph"]` attribute can be added to the `turbo-stream` element to morph only the children of the element designated by the target dom id.
 
